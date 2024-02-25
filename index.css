@@ -1,0 +1,66 @@
+body {
+    background: rgb(148,142,255);
+    background: linear-gradient(47deg, rgba(148,142,255,1) 0%, rgba(118,155,255,1) 11%, rgba(182,231,255,1) 80%, rgba(255,175,247,1) 100%);        
+    background-size: cover;
+    background-size: contain; 
+    font-family: 'Lucida Console', 'Helvetica Neue', sans-serif;    
+    font-weight: bold;
+    text-align: center;
+    height: 100vh;
+}
+.container{
+    background: rgba(30,0,160,0.2);
+    max-width: 80%;
+    margin: auto;
+    border: 3px solid white;
+    border-radius: 10px;       
+}
+
+h1 {
+    
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-shadow:
+        0 0 7px pink,
+        0 0 10px pink,
+        0 0 21px pink,
+        0 0 42px blue,
+        0 0 82px pink,
+        0 0 92px pink,
+        0 0 102px pink;
+}
+
+h2 {
+    color: white;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: white;
+    font-weight: bold;
+    width: 200px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+}
+
+#increment-btn {
+    background: #4167cd;
+    border: 2px solid #1d409f;
+}
+
+#save-btn {
+    background: #c662bc;
+    border: 2px solid #953d8c;
+}
+
+p {
+   color: white;
+   text-shadow:
+      #953d8c -1px 1px 3px; 
+}
+
